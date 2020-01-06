@@ -37,7 +37,7 @@ public class Swagger2 {
                 // 设置页面标题
                 .title("用户中心后端api接口文档")
                 // 设置联系人
-                .contact(new Contact("employeeeee", "https://zhouzihao.xyz", "employeeeee@sina.com"))
+                .contact(new Contact("levy", "https://www.baidu.com", "2973429772@qq.com"))
                 // 描述
                 .description("欢迎访问用户中心接口文档，这里是描述信息")
                 // 定义版本号
