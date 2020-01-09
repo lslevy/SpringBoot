@@ -1,0 +1,22 @@
+#测试环境
+#  开发环境
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: bmi
+    password: abc522042
+    url: jdbc:mysql://192.168.11.162:3306/bmigtest?allowMultiQueries=true&useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.example.demo.entity
+
+#showSql
+logging:
+  level:
+    com:
+      example:
+        mapper : debug
