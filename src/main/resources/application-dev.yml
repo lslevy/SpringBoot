@@ -4,9 +4,9 @@ server:
 
 spring:
   datasource:
-    username: bmi
-    password: abc522042
-    url: jdbc:mysql://192.168.11.162:3306/bmi?allowMultiQueries=true&useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=UTC
+    username:
+    password:
+    url:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
